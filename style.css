@@ -17,7 +17,8 @@ body {
     margin-top: 100px;
     margin-left: 100px;
     padding: 20px;
-    color: #ffffff;    
+    color: #ffffff;
+    box-shadow: -13px 13px 10px #30323b;    
 }
 #ForForm {
     border-radius: 4px;
@@ -27,7 +28,8 @@ body {
     margin-top: 20px;
     margin-left: 100px;
     padding: 20px;
-    color: #ffffff;    
+    color: #ffffff;
+    box-shadow: -13px 13px 10px #30323b;    
 }
 
 #submit {
@@ -48,7 +50,11 @@ body {
 #input {
     border: 0px;
     border-radius: 3px;
-    height: 30px;
+    height: 28px;
     padding-left: 5px;
-    
+    opacity: 0.9;    
+}
+
+#input:hover {
+    opacity: 1;
 }

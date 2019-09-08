@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: 127.0.0.1:3306
--- Время создания: Сен 08 2019 г., 09:34
+-- Время создания: Сен 08 2019 г., 17:28
 -- Версия сервера: 8.0.12
 -- Версия PHP: 7.2.10
 
@@ -38,11 +38,8 @@ CREATE TABLE `country` (
 --
 
 INSERT INTO `country` (`id`, `name`) VALUES
-(30, 'italy'),
-(37, 'usa'),
-(38, 'russia'),
-(53, 'china'),
-(60, 'china');
+(61, 'Russia'),
+(62, 'USA');
 
 --
 -- Индексы сохранённых таблиц
@@ -62,7 +59,7 @@ ALTER TABLE `country`
 -- AUTO_INCREMENT для таблицы `country`
 --
 ALTER TABLE `country`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=61;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=63;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
