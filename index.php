@@ -7,7 +7,6 @@
 <body>
 <?php
 include_once $_SERVER['DOCUMENT_ROOT'] . '/test/database.php';
-//include_once $_SERVER['DOCUMENT_ROOT'] . '/test/php.ini';
 
 echo '<div id="main"><div id="heading">Название страны </div><br /><hr />';
 $query = mysqli_query($link, "SELECT * FROM `country`");    
